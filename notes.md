@@ -22,10 +22,9 @@ WHY?
 
 ### It isn't a grid system
 ![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
-I've used Bootstrap, Skeleton etc in the past and here's my workflow:
+I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://getskeleton.com/) in the past and here's my workflow:
 - Define rows.
-- Split rows into twelfths.
-- Start describing columns by width.
+- Start describing columns by width as twelfths.
 - Modify column layout for different device sizes.
 - Fix problems with clearfixes and offsetting and hiding columns on some devices.
 
