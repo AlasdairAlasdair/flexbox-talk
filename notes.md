@@ -20,7 +20,8 @@ Let's address these insighful points in a bit more detail:
 
 WHY?
 
-### It isn't a [grid system](https://www.google.co.uk/search?q=milton+keynes&espv=2&biw=697&bih=673&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjv8d6fzJ_SAhUrL8AKHZobA6UQ_AUICCgD#imgrc=2pxcLrOnPAMIFM:).
+### It isn't a grid system
+![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
 I've used Bootstrap, Skeleton etc in the past and here's my workflow:
 - Define rows.
 - Split rows into twelfths.
