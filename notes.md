@@ -2,19 +2,25 @@
 
 Flexbox has been around for a [while](https://css-tricks.com/old-flexbox-and-new-flexbox).
 
-I've come across a few people that haven't really used it before (I hadn't used it until 18 months ago).
+I've come across a few people that haven't really used it before (I hadn't until 18 months ago).
 
-Hopefully I'm not wasting your time.
+If you've used it plenty already: I'm about to waste your time. Sorry.
+
+If you don't think css positioning is as interesting as I do: I'm not sorry. If anything, you should apologise to me for wasting my time with your incorrect and ridiculous opinion.
 
 Things you need to know about flexbox:
 
 1. it's great!
 
-2. it should be the default choice when you're positioning something.
+2. it should be the default choice for positioning everything.
 
-## Why is flexbox so great?
+Let's address these insighful points in a bit more detail:
 
-### 1. It isn't a [grid system](https://www.google.co.uk/search?q=milton+keynes&espv=2&biw=697&bih=673&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjv8d6fzJ_SAhUrL8AKHZobA6UQ_AUICCgD#imgrc=2pxcLrOnPAMIFM:).
+## 1. Flexbox is great!
+
+WHY?
+
+### It isn't a [grid system](https://www.google.co.uk/search?q=milton+keynes&espv=2&biw=697&bih=673&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjv8d6fzJ_SAhUrL8AKHZobA6UQ_AUICCgD#imgrc=2pxcLrOnPAMIFM:).
 I've used Bootstrap, Skeleton etc in the past and here's my workflow:
 - Define rows.
 - Split rows into twelfths.
