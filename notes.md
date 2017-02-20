@@ -22,10 +22,12 @@ WHY?
 
 ### It isn't a grid system
 ![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
+Grid systems are intuitive but quickly become cumbersome.
+
 I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://getskeleton.com/) in the past and here's my workflow:
 - Define rows.
 - Start describing columns by width as twelfths.
-- Modify column layout for different device sizes (xs, sm, md, lg).
+- Modify column layout for different device sizes (xs, sm, md, lg). Combination of multiple definitions per column.
 - Fix problems with clearfixes and offsetting and hiding columns on some devices.
 - Cry about the layout near the boundaries of the media queries.
 - Try to move on with your life.
@@ -34,16 +36,17 @@ I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://gets
 
 Trying to reason about the layout of an app in multiple configurations is a lot to hold in your head a the best of times. Grid system does not make intelligent choices, you need to hold its hand through lots of configurations.
 
-You naturally define Bootstrap classes in your html. 
-Understandable given how this is how it appears in the docs.
+You naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
+If you're using vanilla css you'll have to do this because you need to combine multiple classes per element (but really you should be using sass or less or something).
 This not only ties you to an implementation but pollutes html with layout concerns, blurring responsibilites.
 
+
 ### 2. Simplifies complexity
-1. It’s native css so no libraries
-2. Everything is just a div with a class name saying what it is, not how it should work.
-3. No encouragement to pollute html with layout, better separation of concerns
-4. <blink>It does sensible things by default (!!!) </blink>
-5. Makes it easier to do mobile first (yes, you should always be doing mobile first).
+- It’s native css so no libraries
+- Everything is just a div with a class name saying what it is, not how it should work.
+- No encouragement to pollute html with layout, better separation of concerns.
+- <blink>It does sensible things by default (!!!) </blink>
+- Makes it easier to do mobile first (yes, you should always be doing mobile first).
 
 ## What actually is flexbox?
 [This isn't helpful.](https://developer.mozilla.org/en/docs/Web/CSS/flex)
@@ -60,11 +63,7 @@ Child = flex item
 ![turtles](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/turtles.jpg)
 
 
-
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
-
-
-
 
 Scary at first but really never got lost with dev tools.
 
@@ -84,3 +83,5 @@ Everything.
 
 ### If get stuck, how do I get unstuck?
 I like ~~fighting with~~ using this stuff so come and ask me.
+
+## oh and Bootstrap 4 is going to have flex support. Although it seems to mostly be wrappers around flexbox itself, so you can easily lose some of the benefits.
