@@ -37,9 +37,9 @@ This not only ties you to an implementation but pollutes html with layout concer
 
 ### 2. Simplifies complexity
 1. It’s native css so no libraries
-2. Everything is a div
+2. Everything is just a div with a class name saying what it is, not how it should work.
 3. No encouragement to pollute html with layout, better separation of concerns
-4. It does sensible things by default (!!!)
+4. <blink>It does sensible things by default (!!!) </blink>
 5. Makes it easier to do mobile first (yes, you should always be doing mobile first).
 
 ## What actually is flexbox?
@@ -47,8 +47,24 @@ This not only ties you to an implementation but pollutes html with layout concer
 
 [This is a bit helpful.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
 
+### Parent child relationship
+![parentchild](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/parentchild.jpg)
+
+Parent = flex container
+Child = flex item
+
+### Recursive!
+![turtles](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/turtles.jpg)
+
+
+
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
 
+
+
+
+Scary at first but really never got lost with dev tools.
+It’s awesome at big site structural things and little fiddly components.
 
 ### What can you do with it?
 Everything.
