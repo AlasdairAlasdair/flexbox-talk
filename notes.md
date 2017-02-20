@@ -25,8 +25,12 @@ WHY?
 I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://getskeleton.com/) in the past and here's my workflow:
 - Define rows.
 - Start describing columns by width as twelfths.
-- Modify column layout for different device sizes.
+- Modify column layout for different device sizes (xs, sm, md, lg).
 - Fix problems with clearfixes and offsetting and hiding columns on some devices.
+- Cry about the layout near the boundaries of the media queries.
+- Try to move on with your life.
+- Fail.
+- Fantasise about one day giving a lightning talk about a superior system.
 
 Trying to reason about the layout of an app in multiple configurations is a lot to hold in your head a the best of times. Grid system does not make intelligent choices, you need to hold its hand through lots of configurations.
 
