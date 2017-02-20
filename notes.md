@@ -67,7 +67,10 @@ Child = flex item
 
 
 Scary at first but really never got lost with dev tools.
-It’s awesome at big site structural things and little fiddly components.
+
+It’s equally good at big site structural things and little fiddly components.
+
+This is biased but I find I write cleaner, less hacky css with fewer absolute / reative positioning.
 
 ### What can you do with it?
 Everything.
@@ -78,3 +81,6 @@ Everything.
 [flexbox froggy](http://flexboxfroggy.com/)
 
 [solved by flexbox](https://philipwalton.github.io/solved-by-flexbox/)
+
+### If get stuck, how do I get unstuck?
+I like ~~fighting with~~ using this stuff so come and ask me.
