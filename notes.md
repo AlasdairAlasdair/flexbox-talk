@@ -2,60 +2,6 @@
 
 Flexbox has been around for a [while](https://css-tricks.com/old-flexbox-and-new-flexbox).
 
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.  
-.
 I've come across a few people that haven't really used it before (I hadn't until a couple of years ago).
 
 .  
