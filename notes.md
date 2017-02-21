@@ -2,7 +2,7 @@
 
 Flexbox has been around for a [while](https://css-tricks.com/old-flexbox-and-new-flexbox).
 
-I've come across a few people that haven't really used it before (I hadn't until 18 months ago).
+I've come across a few people that haven't really used it before (I hadn't until a couple of years ago).
 
 If you've used it plenty already: I'm about to waste your time. Sorry.
 
@@ -28,25 +28,35 @@ I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://gets
 - Define rows.
 - Start describing columns by width as twelfths.
 - Modify column layout for different device sizes (xs, sm, md, lg). Combination of multiple definitions per column.
-- Fix problems with clearfixes and offsetting and hiding columns on some devices.
+- Fix problems on some devices.
+    - clearfixes
+    - offset columns
+    - hide columns
 - Cry about the layout near the boundaries of the media queries.
 - Try to move on with your life.
 - Fail.
 - Fantasise about one day giving a lightning talk about a superior system.
 
-Trying to reason about the layout of an app in multiple configurations is a lot to hold in your head a the best of times. Grid system does not make intelligent choices, you need to hold its hand through lots of configurations.
+Trying to reason about the layout of an app in multiple configurations is a lot to hold in your head at the best of times.
 
-You naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
+Grid systems don't make intelligent choices, you frequently need to hold its hand to create a sensible layout for each device size.
+
+### You'll write cleaner CSS
+When using Bootstrap you naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
+
 If you're using vanilla css you'll have to do this because you need to combine multiple classes per element (but really you should be using sass or less or something).
+
 This not only ties you to an implementation but pollutes html with layout concerns, blurring responsibilites.
+
+You'll never need to understand (misunderstand) floats.
 
 
 ### 2. Simplifies complexity
 - It’s native css so no libraries
 - Everything is just a div with a class name saying what it is, not how it should work.
 - No encouragement to pollute html with layout, better separation of concerns.
-- <blink>It does sensible things by default (!!!) </blink>
-- Makes it easier to do mobile first (yes, you should always be doing mobile first).
+- It does sensible things by default (!!!).
+- You can centre things easily (!!!).
 
 ## What actually is flexbox?
 [This isn't helpful.](https://developer.mozilla.org/en/docs/Web/CSS/flex)
@@ -62,17 +72,23 @@ Child = flex item
 ### Recursive!
 ![turtles](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/turtles.jpg)
 
-
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
 
-Scary at first but really never got lost with dev tools.
-
-It’s equally good at big site structural things and little fiddly components.
-
-This is biased but I find I write cleaner, less hacky css with fewer absolute / reative positioning.
+Scary at first but never got lost with dev tools.
 
 ### What can you do with it?
 Everything.
+
+It’s equally good at big site structural things and little fiddly components.
+
+### Wha
+Flexbox makes me write cleaner, simpler, less hacky css. 
+
+Fewer elements using absolute / relative positioning.
+
+Fewer hardcoded values.
+
+Easier to make pages mobile friendly !important;
 
 ### How do I get started?
 [css flexbox tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -81,7 +97,6 @@ Everything.
 
 [solved by flexbox](https://philipwalton.github.io/solved-by-flexbox/)
 
-### If get stuck, how do I get unstuck?
-I like ~~fighting with~~ using this stuff so come and ask me.
+I like using this stuff so I'm happy to help out.
 
 ## oh and Bootstrap 4 is going to have flex support. Although it seems to mostly be wrappers around flexbox itself, so you can easily lose some of the benefits.
