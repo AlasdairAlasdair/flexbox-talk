@@ -15,8 +15,8 @@ It's great!
 It should be the default choice for positioning everything with CSS.
 
 # What is flexbox?
-## It isn't a grid system.
 ![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
+## It isn't a grid system.
 Grid systems are intuitive but quickly become cumbersome.
 
 I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://getskeleton.com/) in the past and here's my workflow:
@@ -54,6 +54,7 @@ Grid systems don't make intelligent choices, you frequently need to hold its han
 ![parentchild](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/parentchild.jpg)
 
 Parent = flex container
+
 Child = flex item
 
 ### Recursion
@@ -61,8 +62,8 @@ Child = flex item
 
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
 
-### Useful everywhere
-It’s equally good at big site structural things and little fiddly components.
+## What is flexbox?
+It's versatile. It’s equally good at big site structural things and little fiddly components.
 
 ### What is flexbox?
 It's a way of simplifying complexity.
