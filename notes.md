@@ -1,26 +1,21 @@
-# FLEXBOX
+# What is flexbox?
 
 Flexbox has been around for a [while](https://css-tricks.com/old-flexbox-and-new-flexbox).
 
 I've come across a few people that haven't really used it before (I hadn't until a couple of years ago).
 
-If you've used it plenty already: I'm about to waste your time. Sorry.
+If you've used it plenty and you're already a fan: I'm about to waste your time. Sorry.
 
 If you don't think css positioning is as interesting as I do: I'm not sorry. If anything, you should apologise to me for wasting my time with your incorrect and ridiculous opinion.
 
-Things you need to know about flexbox:
+# What is flexbox?
+It's great!
 
-1. it's great!
+# What is flexbox?
+It should be the default choice for positioning everything with CSS.
 
-2. it should be the default choice for positioning everything.
-
-Let's address these insighful points in a bit more detail:
-
-## 1. Flexbox is great!
-
-WHY?
-
-### It isn't a grid system
+# What is flexbox?
+## It isn't a grid system.
 ![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
 Grid systems are intuitive but quickly become cumbersome.
 
@@ -41,24 +36,16 @@ Trying to reason about the layout of an app is a lot to hold in your head at the
 
 Grid systems don't make intelligent choices, you frequently need to hold its hand to create a sensible layout for each device size.
 
-### You'll write cleaner CSS
-When using Bootstrap you naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
+# What is flexbox?
+# :) It’s native css so no libraries
 
-If you're using vanilla css you'll have to do this because you need to combine multiple classes per element (but really you should be using sass or less or something).
+# O: Everything is just a div with a class name saying what it is, not how it should work.
 
-This not only ties you to an implementation but pollutes html with layout concerns, blurring responsibilites.
+# :O It does sensible things by default. 
 
-You'll never need to understand (misunderstand) floats.
+# Ö You can centre things easily.
 
-
-### 2. Simplifies complexity
-- It’s native css so no libraries
-- Everything is just a div with a class name saying what it is, not how it should work.
-- No encouragement to pollute html with layout, better separation of concerns.
-- It does sensible things by default (!!!).
-- You can centre things easily (!!!).
-
-## What actually is flexbox?
+## What is flexbox?
 [This isn't helpful.](https://developer.mozilla.org/en/docs/Web/CSS/flex)
 
 [This is a bit helpful.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
@@ -69,26 +56,31 @@ You'll never need to understand (misunderstand) floats.
 Parent = flex container
 Child = flex item
 
-### Recursive!
+### Recursion
 ![turtles](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/turtles.jpg)
 
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
 
-Scary at first but never got lost with dev tools.
-
-### What can you do with it?
-Everything.
-
+### Useful everywhere
 It’s equally good at big site structural things and little fiddly components.
 
-### Wha
-Flexbox makes me write cleaner, simpler, less hacky css. 
+### What is flexbox?
+It's a way of simplifying complexity.
+It makes me write cleaner, simpler, less hacky css. 
+- Fewer elements using absolute / relative positioning.
+- Fewer hardcoded values.
+- Easier to make pages mobile friendly !important;
 
-Fewer elements using absolute / relative positioning.
+### You won't want to use Bootstrap
+When using Bootstrap you naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
 
-Fewer hardcoded values.
+If you're using vanilla css you'll have to do this because you need to combine multiple classes per element (but really you should be using sass or less or something).
 
-Easier to make pages mobile friendly !important;
+This not only ties you to an implementation but pollutes html with layout concerns, blurring responsibilites.
+
+You'll never need to understand (misunderstand) floats.
+
+(Bootstrap 4 is going to have flex support. Although it seems to mostly be wrappers around flexbox itself, so you can easily lose some of the benefits)
 
 ### How do I get started?
 [css flexbox tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -99,4 +91,12 @@ Easier to make pages mobile friendly !important;
 
 I like using this stuff so I'm happy to help out.
 
-## oh and Bootstrap 4 is going to have flex support. Although it seems to mostly be wrappers around flexbox itself, so you can easily lose some of the benefits.
+
+
+
+
+
+
+
+
+# ?
