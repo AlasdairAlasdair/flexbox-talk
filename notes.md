@@ -170,7 +170,8 @@ If you don't think css positioning is as interesting as I do: I'm not sorry. If 
 .  
 .  
 .  
-.# What is flexbox?
+.
+# What is flexbox?
 It's great!
 
 .  
@@ -228,6 +229,7 @@ It's great!
 .  
 .         
 # What is flexbox?
+
 It should be the default choice for positioning everything with CSS.
 
 .  
@@ -287,6 +289,7 @@ It should be the default choice for positioning everything with CSS.
 # What is flexbox?
 ![mk](https://raw.githubusercontent.com/AlasdairAlasdair/flexbox-talk/master/mk.jpg)
 ## It isn't a grid system.
+
 Grid systems are intuitive but quickly become cumbersome.
 
 I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://getskeleton.com/) in the past and here's my workflow:
@@ -306,6 +309,60 @@ Trying to reason about the layout of an app is a lot to hold in your head at the
 
 Grid systems don't make intelligent choices, you frequently need to hold its hand to create a sensible layout for each device size.
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 # What is flexbox?
 # :) It’s native css so no libraries
 
@@ -315,6 +372,60 @@ Grid systems don't make intelligent choices, you frequently need to hold its han
 
 # Ö You can centre things easily.
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 ## What is flexbox?
 [This isn't helpful.](https://developer.mozilla.org/en/docs/Web/CSS/flex)
 
@@ -332,9 +443,117 @@ Child = flex item
 
 [This is more helpful.](http://codepen.io/justd/pen/yydezN)
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 ## What is flexbox?
 It's versatile. It’s equally good at big site structural things and little fiddly components.
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 ## What is flexbox?
 It's a way of simplifying complexity.
 It makes me write cleaner, simpler, less hacky css. 
@@ -342,6 +561,60 @@ It makes me write cleaner, simpler, less hacky css.
 - Fewer hardcoded values.
 - Easier to make pages mobile friendly !important;
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 ### You won't want to use Bootstrap
 When using Bootstrap you naturally fall into defining Bootstrap classes in your html, which is understandable given how this is how it appears in the docs but it's not a great idea. 
 
@@ -353,6 +626,60 @@ You'll never need to understand (misunderstand) floats.
 
 (Bootstrap 4 is going to have flex support. Although it seems to mostly be wrappers around flexbox itself, so you can easily lose some of the benefits)
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 ### How do I get started?
 [css flexbox tutorial](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
@@ -362,12 +689,58 @@ You'll never need to understand (misunderstand) floats.
 
 I like using this stuff so I'm happy to help out.
 
-
-
-
-
-
-
-
-
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+.  
 # ?
