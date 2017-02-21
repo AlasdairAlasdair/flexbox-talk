@@ -37,7 +37,7 @@ I've used [Bootstrap](http://getbootstrap.com/css/#grid), [Skeleton](http://gets
 - Fail.
 - Fantasise about one day giving a lightning talk about a superior system.
 
-Trying to reason about the layout of an app in multiple configurations is a lot to hold in your head at the best of times.
+Trying to reason about the layout of an app is a lot to hold in your head at the best of times. Trying to reason about the layout of an app in multiple configurations is really hard.
 
 Grid systems don't make intelligent choices, you frequently need to hold its hand to create a sensible layout for each device size.
 
